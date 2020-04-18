@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -338,19 +338,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/8K Skybox Pack Free/Skyboxes/Texture
+    - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/8K Skybox Pack Free/Skyboxes/Texture
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Program Files\GitHub\PizzaApocalypse\PizzaApoc
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08530000
-    m_LastClickedID: 21256
+    scrollPos: {x: 0, y: 110}
+    m_SelectedIDs: 0a530000
+    m_LastClickedID: 21258
     m_ExpandedIDs: 00000000dc520000de520000e0520000e252000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -502,8 +502,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: f8470000
+      m_LastClickedID: 18424
       m_ExpandedIDs: 70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -520,7 +520,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 3}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -70.739105, y: 66.07603, z: 66.49567}
+    m_Target: {x: -285.7343, y: 52.926266, z: -41.93378}
     speed: 2
-    m_Value: {x: -70.739105, y: 66.07603, z: 66.49567}
+    m_Value: {x: -285.7343, y: 52.926266, z: -41.93378}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09558121, y: 0.46435583, z: -0.05049372, w: 0.87903535}
+    m_Target: {x: -0.07680731, y: 0.91627496, z: -0.21290514, w: -0.3305253}
     speed: 2
-    m_Value: {x: 0.09682204, y: 0.46559396, z: -0.051335126, w: 0.8781871}
+    m_Value: {x: -0.07922696, y: 0.9129279, z: -0.21357122, w: -0.33863392}
   m_Size:
-    m_Target: 497.54895
+    m_Target: 9.642231
     speed: 2
-    m_Value: 476.1234
+    m_Value: 9.2270155
   m_Ortho:
     m_Target: 0
     speed: 2
