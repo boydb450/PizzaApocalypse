@@ -20,8 +20,7 @@ public class DoorOpener : MonoBehaviour
 
     private void OpenDoor()
     {
-        print(hinge.transform.localRotation.y);
-        hinge.transform.Rotate(new Vector3(0,30,0), 50 * Time.deltaTime);
+        hinge.transform.Rotate(new Vector3(0,30,0), 60 * Time.deltaTime);
         
     }
 
