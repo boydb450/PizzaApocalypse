@@ -9,6 +9,8 @@ public class SceneTransition : MonoBehaviour
     public GameObject Ui;
     public float duration = 0.4f;
     public CanvasGroup tehCanvace;
+    public AudioSource sauce;
+
 
     [SerializeField]
     string Target;
@@ -21,7 +23,7 @@ public class SceneTransition : MonoBehaviour
             if (other.CompareTag("Player"))
             {
                 clickersd = true;         
-                //        mySound.Play();
+                sauce.Play();
                 StartCoroutine(Dofade(tehCanvace, tehCanvace.alpha, 0));
             }
         }

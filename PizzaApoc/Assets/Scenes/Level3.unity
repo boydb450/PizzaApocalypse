@@ -938,6 +938,109 @@ Skybox:
   m_GameObject: {fileID: 54896920}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 0}
+--- !u!1 &55297671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 55297672}
+  - component: {fileID: 55297675}
+  - component: {fileID: 55297674}
+  - component: {fileID: 55297673}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &55297672
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55297671}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8390224820769520846}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1769.2}
+  m_SizeDelta: {x: 1000, y: 9999}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &55297673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55297671}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628824c5236d7b04f825fb79d45545d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 55297674}
+  speed: 0
+--- !u!114 &55297674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55297671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
+    m_FontSize: 68
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 92
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "It is projected that by 2100, the water levels will rise over 6 feet globally.\n\n\nThe
+    global temperature will rise by 5-6\xB0C. This would put the average temperature
+    of Miami at 95.\r\n\r\nThe planet does not warm evenly however and warm coastal
+    places like Miami are at extreme risk.\r\n\r\nThis data is based on NOAA's RCP
+    8.5 climate model. This model predicts where we will be if we don't change our
+    global habits for the better.\r\n\r\nHowever there is still hope, there are other
+    models like the RCP 2.6 which show the effects of our climate change being drastically
+    reduced, saving coastal areas like this. This projection is still possible if
+    we can push the world leaders to peruse it.\r\n\r\n\"A large-scale, global and
+    differentiated greenhouse gas mitigation strategy and new technologies would
+    need to be widely employed very soon in order to attain this reality of the scenario
+    depicted here.\" - National Oceanic and Atmospheric Administration\r\n"
+--- !u!222 &55297675
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55297671}
+  m_CullTransparentMesh: 0
 --- !u!4 &60859823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2063697743714193481, guid: fb40320a3b8d8bc46bb6c798f6d504aa,
@@ -5559,8 +5662,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307155695}
-  m_LocalRotation: {x: -0.22359219, y: 0.1426801, z: 0.033106558, w: 0.9636145}
-  m_LocalPosition: {x: -12.532684, y: -52.23781, z: -25.576767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.407959, y: -39.692356, z: 5.336342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1514015196}
@@ -12275,6 +12378,10 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.492
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_WalkSpeed
+      value: 99
+      objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Height
       value: 2.43
@@ -16300,6 +16407,109 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 976622632}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &979203918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 979203919}
+  - component: {fileID: 979203922}
+  - component: {fileID: 979203921}
+  - component: {fileID: 979203920}
+  m_Layer: 5
+  m_Name: Text (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &979203919
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979203918}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8390224820769520846}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1769.2}
+  m_SizeDelta: {x: 1000, y: 9999}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &979203920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979203918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628824c5236d7b04f825fb79d45545d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txt: {fileID: 979203921}
+  speed: 0.5
+--- !u!114 &979203921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979203918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
+    m_FontSize: 68
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 92
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "It is projected that by 2100, the water levels will rise over 6 feet globally.\n\n\nThe
+    global temperature will rise by 5-6\xB0C. This would put the average temperature
+    of Miami at 95.\r\n\r\nThe planet does not warm evenly however and warm coastal
+    places like Miami are at extreme risk.\r\n\r\nThis data is based on NOAA's RCP
+    8.5 climate model. This model predicts where we will be if we don't change our
+    global habits for the better.\r\n\r\nHowever there is still hope, there are other
+    models like the RCP 2.6 which show the effects of our climate change being drastically
+    reduced, saving coastal areas like this. This projection is still possible if
+    we can push the world leaders to peruse it.\r\n\r\n\"A large-scale, global and
+    differentiated greenhouse gas mitigation strategy and new technologies would
+    need to be widely employed very soon in order to attain this reality of the scenario
+    depicted here.\" - National Oceanic and Atmospheric Administration\r\n"
+--- !u!222 &979203922
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979203918}
+  m_CullTransparentMesh: 0
 --- !u!1001 &988209703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19754,8 +19964,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167334509}
-  m_LocalRotation: {x: -0.22359219, y: 0.1426801, z: 0.033106558, w: 0.9636145}
-  m_LocalPosition: {x: -752.8667, y: 289.5315, z: 189.4868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -748.74194, y: 302.07693, z: 220.3999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 874601787}
@@ -23023,8 +23233,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392288290}
-  m_LocalRotation: {x: -0.22359219, y: 0.1426801, z: 0.033106558, w: 0.9636145}
-  m_LocalPosition: {x: -752.8667, y: 260.7315, z: 189.4868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -748.74194, y: 273.27695, z: 220.3999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 874601787}
@@ -34615,8 +34825,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600726336}
-  m_LocalRotation: {x: -0.053760797, y: 0.24605528, z: 0.013670309, w: 0.9676672}
-  m_LocalPosition: {x: -760.17236, y: 300.754, z: 189.01572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -748.74194, y: 302.07693, z: 220.3999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 874601787}
@@ -39883,8 +40093,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958716756}
-  m_LocalRotation: {x: -0.027894542, y: 0.3675023, z: 0.01102866, w: 0.9295388}
-  m_LocalPosition: {x: -26.916382, y: -39.285263, z: -21.117218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.407959, y: -39.692356, z: 5.336342}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1514015196}
@@ -79623,83 +79833,6 @@ Transform:
   m_Father: {fileID: 5112710738772428161}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!222 &8390224819304896014
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390224819304896019}
-  m_CullTransparentMesh: 0
---- !u!224 &8390224819304896016
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390224819304896019}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 8390224820769520846}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1000, y: 1000}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &8390224819304896017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390224819304896019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: b51a3e520f9164da198dc59c8acfccd6, type: 3}
-    m_FontSize: 68
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 92
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: It is projected that by 2100, the water levels will rise over 6 feet globally.
---- !u!1 &8390224819304896019
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8390224819304896016}
-  - component: {fileID: 8390224819304896014}
-  - component: {fileID: 8390224819304896017}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &8390224819374248961
 GameObject:
   m_ObjectHideFlags: 0
@@ -79711,7 +79844,7 @@ GameObject:
   - component: {fileID: 8390224819374249470}
   - component: {fileID: 8390224819374249468}
   - component: {fileID: 8390224819374249471}
-  - component: {fileID: 8390224819374249469}
+  - component: {fileID: 8390224819374248962}
   m_Layer: 0
   m_Name: DoorClickbox
   m_TagString: Untagged
@@ -79719,6 +79852,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8390224819374248962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390224819374248961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4f861291591ada42a29009d261629f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ui: {fileID: 8390224820769520850}
+  duration: 5
+  tehCanvace: {fileID: 8390224820769520844}
+  sauce: {fileID: 8390224819374249471}
+  textOne: {fileID: 55297671}
+  textTwo: {fileID: 979203918}
+  Target: lollllllllllllllllllz
 --- !u!65 &8390224819374249468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79732,22 +79884,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8390224819374249469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390224819374248961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e778fa54d6874c340831131b47aee079, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ui: {fileID: 8390224820769520850}
-  duration: 5
-  tehCanvace: {fileID: 8390224820769520844}
-  Target: Credits
 --- !u!4 &8390224819374249470
 Transform:
   m_ObjectHideFlags: 0
@@ -79772,7 +79908,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9fdce385a1f7e934ea7f26cb2049c5bd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -80094,7 +80230,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 8390224820305394736}
-  - {fileID: 8390224819304896016}
+  - {fileID: 55297672}
+  - {fileID: 979203919}
   m_Father: {fileID: 8390224820577090792}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
