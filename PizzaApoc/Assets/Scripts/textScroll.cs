@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class textScroll : MonoBehaviour
 {
@@ -17,5 +19,9 @@ public class textScroll : MonoBehaviour
         newPos += speed;
         assign_text_1RT.anchoredPosition = new Vector3(0f, newPos, 0f);
 
+        if (assign_text_1RT.anchoredPosition.y >= 1769)
+        {
+            SceneManager.LoadScene("Start Menu");
+        }
     }
 }

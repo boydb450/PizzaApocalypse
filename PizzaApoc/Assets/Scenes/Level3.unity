@@ -922,8 +922,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54896920}
-  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
-  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -216.34192, y: -117.52307, z: -82.7001}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -2327,8 +2327,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151208480}
-  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
-  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
+  m_LocalRotation: {x: -0.2204972, y: -0.25273558, z: -0.059435736, w: 0.9401984}
+  m_LocalPosition: {x: -77.54028, y: -218.08488, z: 200.99496}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -5010,8 +5010,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265086955}
-  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
-  m_LocalPosition: {x: -216.34216, y: -146.58508, z: -83.56961}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -216.34192, y: -146.32306, z: -82.7001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -16425,7 +16425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &979203919
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16442,7 +16442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1769.2}
+  m_AnchoredPosition: {x: 0, y: -1304.35}
   m_SizeDelta: {x: 1000, y: 9999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &979203920
@@ -16458,7 +16458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt: {fileID: 979203921}
-  speed: 0.5
+  speed: 0.65
 --- !u!114 &979203921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16498,10 +16498,7 @@ MonoBehaviour:
     global habits for the better.\r\n\r\nHowever there is still hope, there are other
     models like the RCP 2.6 which show the effects of our climate change being drastically
     reduced, saving coastal areas like this. This projection is still possible if
-    we can push the world leaders to peruse it.\r\n\r\n\"A large-scale, global and
-    differentiated greenhouse gas mitigation strategy and new technologies would
-    need to be widely employed very soon in order to attain this reality of the scenario
-    depicted here.\" - National Oceanic and Atmospheric Administration\r\n"
+    we can push the world leaders to peruse it.\r\n"
 --- !u!222 &979203922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19623,8 +19620,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151875654}
-  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
-  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -216.34192, y: -117.52307, z: -82.7001}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -22303,8 +22300,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336784625}
-  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
-  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
+  m_LocalRotation: {x: -0.2204972, y: -0.25273558, z: -0.059435736, w: 0.9401984}
+  m_LocalPosition: {x: 237.11877, y: -404.9274, z: -264.7953}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
