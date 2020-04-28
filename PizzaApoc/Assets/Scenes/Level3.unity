@@ -922,8 +922,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54896920}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -216.34192, y: -117.52307, z: -82.7001}
+=======
+  m_LocalRotation: {x: 0.47289106, y: 0.52434164, z: 0.46210694, w: -0.5365605}
+  m_LocalPosition: {x: -188.62952, y: -192.18971, z: -92.205826}
+>>>>>>> parent of a0a865b... Re-added trees
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -2327,8 +2332,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151208480}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.2204972, y: -0.25273558, z: -0.059435736, w: 0.9401984}
   m_LocalPosition: {x: -77.54028, y: -218.08488, z: 200.99496}
+=======
+  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
+  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+>>>>>>> parent of a0a865b... Re-added trees
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -5010,8 +5020,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265086955}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -216.34192, y: -146.32306, z: -82.7001}
+=======
+  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
+  m_LocalPosition: {x: -216.04114, y: -146.9531, z: -81.56291}
+>>>>>>> parent of a0a865b... Re-added trees
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -19620,8 +19635,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151875654}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -216.34192, y: -117.52307, z: -82.7001}
+=======
+  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
+  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+>>>>>>> parent of a0a865b... Re-added trees
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -22300,8 +22320,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336784625}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0.2204972, y: -0.25273558, z: -0.059435736, w: 0.9401984}
   m_LocalPosition: {x: 237.11877, y: -404.9274, z: -264.7953}
+=======
+  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
+  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+>>>>>>> parent of a0a865b... Re-added trees
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
