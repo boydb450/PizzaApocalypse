@@ -922,8 +922,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54896920}
-  m_LocalRotation: {x: 0.47289106, y: 0.52434164, z: 0.46210694, w: -0.5365605}
-  m_LocalPosition: {x: -188.62952, y: -192.18971, z: -92.205826}
+  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
+  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -2327,8 +2327,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151208480}
-  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
-  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
+  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -5010,8 +5010,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265086955}
-  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
-  m_LocalPosition: {x: -216.04114, y: -146.9531, z: -81.56291}
+  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
+  m_LocalPosition: {x: -216.34216, y: -146.58508, z: -83.56961}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -16492,7 +16492,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "It is projected that by 2100, the water levels will rise over 6 feet globally.\n\n\nThe
     global temperature will rise by 5-6\xB0C. This would put the average temperature
-    of Miami at 95.\r\n\r\nThe planet does not warm evenly however and warm coastal
+    of Miami at 95f.\r\n\r\nThe planet does not warm evenly however and warm coastal
     places like Miami are at extreme risk.\r\n\r\nThis data is based on NOAA's RCP
     8.5 climate model. This model predicts where we will be if we don't change our
     global habits for the better.\r\n\r\nHowever there is still hope, there are other
@@ -19623,8 +19623,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151875654}
-  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
-  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
+  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -22303,8 +22303,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336784625}
-  m_LocalRotation: {x: 0.11376291, y: -0.68487984, z: -0.10926818, w: -0.7113777}
-  m_LocalPosition: {x: -216.04114, y: -118.15311, z: -81.56291}
+  m_LocalRotation: {x: 0.06284659, y: -0.27622572, z: -0.017928591, w: -0.95886827}
+  m_LocalPosition: {x: -216.34216, y: -117.785095, z: -83.56961}
   m_LocalScale: {x: 1, y: 1, z: 1.064}
   m_Children: []
   m_Father: {fileID: 1573770378}
@@ -33494,7 +33494,7 @@ MonoBehaviour:
   RainFallParticleSystem: {fileID: 1486740723}
   RainExplosionParticleSystem: {fileID: 0}
   RainMistParticleSystem: {fileID: 1486743841}
-  RainMistThreshold: 0.5
+  RainMistThreshold: 0.225
   WindSound: {fileID: 8300000, guid: f9826f595784348498b57bcf6b2c8b1f, type: 3}
   WindSoundVolumeModifier: 0.13
   WindZone: {fileID: 1487307073}

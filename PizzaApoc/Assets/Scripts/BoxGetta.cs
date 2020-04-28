@@ -13,7 +13,7 @@ public class BoxGetta : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             gameObject.transform.parent = other.transform;
-            gameObject.transform.localPosition = new Vector3(0, 0, 0);
+            gameObject.transform.localPosition = new Vector3(0, 0, .28f);
             gameObject.transform.localRotation = baoal;
             boxy = true;
         }
