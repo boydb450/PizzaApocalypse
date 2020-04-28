@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Start Menu.unity
+=======
+- path: Assets/Scenes/Level3.unity
+>>>>>>> parent of a0a865b... Re-added trees
   isLoaded: 1
   isActive: 1
   isSubScene: 0

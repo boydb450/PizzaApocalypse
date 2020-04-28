@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-217.22019958496095,"y":87.74207305908203,"z":356.6727600097656},"rotation":{"x":-0.22060208022594453,"y":0.25268056988716128,"z":-0.059117499738931659,"w":-0.9402958154678345},"size":129.04721069335938,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-283.6752014160156,"y":50.165557861328128,"z":-38.94964599609375},"rotation":{"x":-0.18368734419345857,"y":-0.46838730573654177,"z":0.10044563561677933,"w":-0.8584531545639038},"size":7.367132186889648,"orthographic":false}
+>>>>>>> parent of a0a865b... Re-added trees
